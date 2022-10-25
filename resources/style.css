@@ -1,7 +1,48 @@
+/* || Global Styles
+    color palette: https://colorhunt.co/palettes/winter*/
+body {
+  background-color: #678983;
+}
+ 
+/* || Navigation bar settings*/
+#nav {
+  background-color: #181D31;
+  color: #E6DDC4;
+  display: flex;
+}
+
+a {
+  color: #E6DDC4;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#logo {
+  margin-left: 5vw;
+}
+
+#push {
+  margin-left: 60vw;
+}
+
+/* || Slideshow styling rules*/
+#slideshow-example {
+  text-align: center;
+}
+
+img {
+  max-width: 400px;
+  max-height: 300px;
+  border: 2px solid #678983;
+  border-radius: 8px;
+}
 [data-component="slideshow"] .slide {
     display: none;
-  }
+}
 
   [data-component="slideshow"] .slide.active {
     display: block;
-  }
+  }  
